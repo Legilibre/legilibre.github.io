@@ -28,7 +28,7 @@
 
           <nav>
   {% for page in site.pages %}
-            {% if page.url != "/404" %}
+            {% if page.title contains "404" %}
             <a href="{{ site.baseurl }}{{page.url}}">{{page.title}}</a>
             {% endif %}
   {% endfor %}
