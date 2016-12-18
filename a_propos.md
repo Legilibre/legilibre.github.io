@@ -1,4 +1,4 @@
 ---
 layout: page
-title: legi.py
+title: À propos
 ---
