@@ -29,7 +29,11 @@
           <nav>
   {% for page in site.pages %}
             {% unless page.title contains '404' %}
-            <a href="{{ site.baseurl }}{{page.url}}">{{page.title}}</a>
+                {% if page.external_url %}
+                    <a href="{{ page.external_url }}">{{page.title}}</a>
+                {% else %}
+                    <a href="{{ site.baseurl }}{{page.url}}">{{page.title}}</a>
+                {% endif %}
             {% endunless %}
   {% endfor %}
           </nav>
