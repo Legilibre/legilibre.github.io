@@ -17,3 +17,4 @@ Bureau
 - [Sébastien Beyou](https://www.seb35.fr/)
 - [Charly Coste](http://changaco.oy.lc/)
 - [Benjamin Vialle](https://benjamin-vialle.net/)
+- [Jean-Marc Le Roux](https://promethe.io/)
